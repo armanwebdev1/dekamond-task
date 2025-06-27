@@ -134,3 +134,60 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+    background-image: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    max-height: 400px;
+    background-image: none;
+  }
+
+  .right {
+    max-width: 100%;
+    min-height: 100%;
+    padding: 2rem 1.5rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    button {
+      font-size: 0.95rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .right {
+    padding: 1.5rem 1rem;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    input {
+      font-size: 0.95rem;
+    }
+
+    button {
+      padding: 0.65rem;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -58,3 +58,51 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    max-height: none;
+  }
+
+  .panel {
+    padding: 2rem;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      font-size: 0.95rem;
+      padding: 0.6rem 1.25rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .panel {
+    padding: 1.5rem;
+
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+
+    button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+}
