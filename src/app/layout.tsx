@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Auth Dashboard",
+  title: "Auth/Dashboard",
 };
 
 import "./globals.scss";
